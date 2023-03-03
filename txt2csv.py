@@ -14,11 +14,11 @@ pattern = r'([a-zA-Z\s]+):(.+)'
 
 print('Downloading The Document')
 try:
-  response = requests.get(url)
-  print('Document Download Complete!')
+    response = requests.get(url)
+    print('Document Download Complete!')
 except:
-  print("Document Download Failed!")
-  print("Solutions: Check Network Connection, Check url and file id")
+    print("Document Download Failed!")
+    print("Solutions: Check Network Connection, Check url and file id")
 
 data = {
     'name': [],
