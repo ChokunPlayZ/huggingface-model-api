@@ -43,7 +43,6 @@ print(f"Every Dialog :{len(df)}")
 print('Writing CSV')
 
 df.to_csv('mahiru_shiina.csv', index=False)
-# !mv mahiru_shiina.csv /dataset
 
 print('Pushing Dataset to Repo')
 with open('HuggingFace-API-key.txt', 'rt') as f:
