@@ -3,7 +3,7 @@ a very simple python app to load huggingface model and host it locally so you ge
 
 required modules:
 
-`datasets` `transformers` `pytorch`
+`datasets` `transformers` `pytorch` `apex` `torchsummary`
 
 ## TODO List
 - [ ] Load config.json
