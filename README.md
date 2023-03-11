@@ -6,7 +6,6 @@ required modules:
 `datasets` `transformers` `pytorch` `apex` `torchsummary`
 
 ## TODO List
-- [ ] Load config.json
 - [x] load the model so we can use it
 - [ ] API Key Authentication (maybe?)
-- [ ] add Dockerfile
+- [x] add Dockerfile
