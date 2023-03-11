@@ -22,7 +22,9 @@ def generate_response(prompt):
         temperature=0.6,
         repetition_penalty=1.3
         )
-    return tokenizer.decode(response[0], skip_special_tokens=True)
+    response_text = tokenizer.decode(response[0], skip_special_tokens=True)
+    response_text = response_text.replace(prompt, "").strip() # Remove the prompt text from the response
+    return response_text
 
 @app.route('/')
 def home():
