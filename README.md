@@ -7,5 +7,6 @@ required modules:
 
 ## TODO List
 - [ ] Load config.json
-- [ ] load the model so we can use it
+- [x] load the model so we can use it
 - [ ] API Key Authentication (maybe?)
+- [ ] add Dockerfile
