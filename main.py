@@ -38,6 +38,6 @@ def talk():
 def run():
     app.run(host='0.0.0.0',port=9999)
 
-generate_response("Hi,")
+print(generate_response("Hi,"))
 
 run()
