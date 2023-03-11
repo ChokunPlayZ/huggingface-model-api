@@ -14,7 +14,6 @@ def home():
     return "API is Online"
 
 @app.route('/api/v1/talk', methods=['POST'])
-
 def talk():
     global step  # specify that we are using the global 'step' variable
     print(request.data)
